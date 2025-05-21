@@ -1,0 +1,39 @@
+body {
+    font-family: 'Patrick Hand', cursive; /* Имитация рукописного текста */
+    background-image: url('{% static "images/notebook_bg.png" %}');
+    background-size: cover;
+    background-position: center;
+}
+
+header, footer {
+    background-color: rgba(255, 248, 220, 0.8); /* Теплый цвет бумаги */
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    border-bottom: 3px solid #D2691E;
+}
+
+main.notebook {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    border: 2px dashed #D2691E; /* Эффект страницы блокнота */
+}
+
+nav a, button {
+    color: #D2691E;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+button {
+    background-color: #D2691E;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
